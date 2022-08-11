@@ -30,3 +30,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+*/**/jira.json
+*/**/token.json

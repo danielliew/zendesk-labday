@@ -1,0 +1,43 @@
+.button
+  display: inline-block
+  cursor: pointer
+  margin: 0
+  font-weight: 500
+  transition: all .2s ease
+  border-radius: 7px
+
+.solid
+  @extend .button
+  background-color: #0070f3
+  border: 1px solid #0070f3
+  color: #fff
+  padding: 0.25rem 1rem
+
+.text
+  @extend .button
+  color: #0070f3
+  text-decoration: none
+  opacity: 1
+
+.outlined
+  @extend .button
+  color: #565656
+  border: 1px solid #bbbbbb
+  padding: 0.25rem 1rem
+
+.button:hover
+
+.solid:hover
+  @extend .button
+  background-color: transparent
+  color: #0070f3
+  background: rgba(0,118,255,.1)
+
+.text:hover
+  @extend .button
+  opacity: .5
+
+.outlined:hover
+  @extend .button
+  border-color: #222222
+  color: #222222
